@@ -1,0 +1,19 @@
+Responsive web design:
+ - fluid grid - all layout elements are sized in releative units %
+ - flexible images - are also in relative units
+ - media queries
+
+ www.responsivegridsystem.com
+
+ Stavimo header i tu stavimo veliku sliku.
+ Onda stavimo u css-u header { height: 100vh } - 
+ 100 viewport height - tako da header zauzima celu vidljivu povrsinu
+
+ Sustina responsive design je u tome da su sve jedinice relativne, recimo
+ font size je 200% itd
+
+ Blok elements i inline elements, ali ima i kombinacija
+ inline block, to je kao inline, ali moze imati i padding i margine
+ ne tera nas na line break, ali mozemo da stavimo padding i margins
+
+ Navigation - UL element sa item-ima.
