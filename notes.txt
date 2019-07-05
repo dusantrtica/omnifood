@@ -17,3 +17,5 @@ Responsive web design:
  ne tera nas na line break, ali mozemo da stavimo padding i margins
 
  Navigation - UL element sa item-ima.
+
+ Each webpage should only have one h1 element
