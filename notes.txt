@@ -19,3 +19,8 @@ Responsive web design:
  Navigation - UL element sa item-ima.
 
  Each webpage should only have one h1 element
+ 
+
+ Figure - html element, kao section
+ Kad element ima width: 100% to znaci da ima istu sirinu kao i roditelj, to je
+ poenta
