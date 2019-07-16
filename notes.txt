@@ -24,3 +24,6 @@ Responsive web design:
  Figure - html element, kao section
  Kad element ima width: 100% to znaci da ima istu sirinu kao i roditelj, to je
  poenta
+
+ text-align property radi sa block inline elementima, slika itd
+ i njih lepo alajnuje.
