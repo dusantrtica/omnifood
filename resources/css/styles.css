@@ -14,7 +14,7 @@ orange color: #e67e22
 html {
   background-color: #fff;
   color: #555;
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: 'Lato', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 300;
   /* render our fonts in perfect way */
@@ -25,7 +25,7 @@ html {
   zoom: 1;
 }
 .clearfix:after {
-  content: ".";
+  content: '.';
   clear: both;
   display: block;
   visibility: hidden;
@@ -80,7 +80,7 @@ h2:after {
   display: block;
   height: 2px;
   background-color: #e67e22;
-  content: " ";
+  content: ' ';
   width: 100px;
   margin: 0 auto;
   margin-top: 30px;
@@ -142,7 +142,8 @@ a:active {
 /* ------------------------------------ */
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type='submit'] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -160,23 +161,27 @@ a:active {
 }
 
 .btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:visited,
+input[type='submit'] {
   border: 1px solid #e67e22;
   color: #e67e22;
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type='submit'] {
   background-color: #cf6d17;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type='submit'] {
   border: 1px solid #cf6d17;
 }
 
 .btn-ghost:hover,
-.btn-ghost:active {
+.btn-ghost:active,
+input[type='submit'] {
   border: 1px solid #e67e22;
   color: #fff;
 }
@@ -187,7 +192,7 @@ a:active {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("img/hero.jpg");
+    url('img/hero.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -365,7 +370,7 @@ a na img dajemo opacity < 1, tako da se providi a ispod je crna boja
 /* ------------------------------------ */
 .section-testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("img/back-customers.jpg");
+    url('img/back-customers.jpg');
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
@@ -380,7 +385,7 @@ blockquote {
 }
 
 blockquote:before {
-  content: "\201C";
+  content: '\201C';
   font-size: 500%;
   display: block;
   position: absolute;
@@ -399,4 +404,29 @@ cite img {
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
+}
+
+/* --------------------------------- */
+/* FORM */
+/* --------------------------------- */
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type='text'],
+input[type='email'],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+}
+
+input[type='checkbox'] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
 }
